@@ -1,0 +1,205 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+} 
+
+h2 {
+  font-size: 30px;
+}
+
+/* Header */
+
+.header {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.25; 
+  background-color: #466995;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: 900; 
+  border-bottom: 1px solid #466995;
+  z-index: 10;
+}
+
+.header li {
+  display: inline-block;
+  color: #FFF;
+}
+
+.header a {
+  display: block;
+  color: #FFF;
+  padding: 30px 20px;
+}
+
+a.home {
+  color: red;
+}
+
+.banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bali-1.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center; 
+  top: 100px;   
+  margin-bottom: 100px;
+}
+
+.banner-text {
+  text-align: center;
+  position: absolute;
+  border: solid 3px white;
+  position: relative; 
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 5px;
+} 
+
+.banner-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.separator {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  top: auto;  
+}
+
+.separator-des {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  top: auto;  
+}
+
+.separator h1 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  margin: 30px;
+}
+
+.separator-des h1 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  margin: 30px;
+}
+
+.box-list { 
+  float: left; 
+  padding: 0 20px; 
+}
+
+.box-list:after { 
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
+  border-radius: 30px; 
+  max-width: 400px !important;
+  max-height: 400px!important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: orange;
+}
+
+.card-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: green;
+}
+
+.separator img {
+  border-radius: 30px 30px 0 0; 
+  padding: 20px;
+  max-width: 280px ;
+  max-height: 280px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.description {  
+  max-width: 100%;
+  display: flex;
+  top: 0;
+  margin: 50px; 
+  margin-top: 0;
+}
+
+.separator-des .description-img { 
+  align-self: flex-start;  
+  width: 600px;  
+  margin-right: 20px;
+}
+
+.description .text-description {
+  flex: 1 1 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+code {
+  color: red;
+  font-family: monospace;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #466995;
+  color: white;
+  text-align: center;
+}
+
